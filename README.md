@@ -1,9 +1,9 @@
 ## 🩺 Pneumonia Detection Using Deep Learning
 Chest X-ray Classification with MobileNetV2, Transfer Learning & Grad-CAM
 ### 📌 Project Summary
-
 This project uses Deep Learning (CNN + Transfer Learning) to classify chest X-ray images into Normal or Pneumonia.
 It follows a complete machine learning workflow — data preprocessing, model building, training, evaluation, and model interpretability.
+
 ---
 ### 🚀 Features
 ```bash
@@ -134,5 +134,6 @@ test/
 - scikit-learn
 
 - Google Colab
+
 
 
