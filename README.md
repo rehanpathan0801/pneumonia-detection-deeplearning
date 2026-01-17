@@ -12,8 +12,6 @@ It follows a complete machine learning workflow — data preprocessing, model bu
 ✔ Fine-tuning for improved accuracy
 ✔ Confusion Matrix, Precision, Recall, F1-score
 ✔ Grad-CAM heatmaps for interpretability
-✔ Single-image prediction support
-✔ Clean, well-structured Colab notebook
 ✔ Lightweight and reproducible
 
 ```
@@ -31,7 +29,7 @@ pneumonia-detection-deeplearning/
 │
 ├── models/
 │   ├── best_model.h5
-│   └── pneumonia_detector.keras   (optional)
+│   └── pneumonia_detector.keras   
 │
 ├── assets/
 │   ├── sample_chest_xrays/
@@ -70,12 +68,12 @@ The project uses MobileNetV2 as a feature extractor because it is:
 ---
 
 ### 📊 Evaluation Results
-![Accuracy Curve](assets/results/training.png)
+
 Classification Report
 | Metric    | Normal | Pneumonia |
 | --------- | ------ | --------- |
 | Precision | 0.92   | 0.84      |
-| Recall    | 0.68   | 0.97      |
+| Recall    | 0.70   | 0.97      |
 | F1-Score  | 0.79   | 0.90      |
 ---
 ### ⭐ Overall Accuracy: 86%
@@ -87,13 +85,8 @@ Classification Report
 
 Grad-CAM heatmaps highlight lung regions responsible for model predictions.
 
-Red → High importance
-
-Blue → Low importance
-
 This adds explainability, which is crucial for medical AI applications.
 
-(Example images stored in /assets/gradcam_examples/)
 
 --- 
 
@@ -123,7 +116,7 @@ test/
 
 - Python
 
-- TensorFlow / Keras
+- TensorFlow 
 
 - NumPy
 
@@ -131,9 +124,8 @@ test/
 
 - Seaborn
 
-- scikit-learn
-
 - Google Colab
+
 
 
 
